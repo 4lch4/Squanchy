@@ -1,0 +1,22 @@
+{
+  "name": "squanchy-developer",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest"
+  },
+  "scripts": {
+    "update-deps": "npm update",
+    "prestart": "npm install",
+    "start": "node Server.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.0",
+    "jshint": "^2.9.4"
+  }
+}
